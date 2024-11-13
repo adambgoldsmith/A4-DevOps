@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam Goldsmith - Resume</title>
+    <!-- Tailwind CSS from CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Feather Icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"></script>
+</head>
+<body class="min-h-screen bg-gray-50 p-8">
+    <div class="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-8">
+        <!-- Header -->
+        <header class="mb-8">
+            <h1 class="text-4xl font-bold text-gray-800 mb-4">Adam Goldsmith</h1>
+            <div class="flex gap-4">
+                <a href="https://github.com/adambgoldsmith" class="flex items-center gap-2 text-gray-600 hover:text-gray-900">
+                    <i data-feather="github"></i> adambgoldsmith
+                </a>
+                <a href="https://linkedin.com/" class="flex items-center gap-2 text-gray-600 hover:text-gray-900">
+                    <i data-feather="linkedin"></i> Adam Goldsmith
+                </a>
+                <a href="mailto:agoldsmith@my.bcit.ca" class="flex items-center gap-2 text-gray-600 hover:text-gray-900">
+                    <i data-feather="mail"></i> agoldsmith@my.bcit.ca
+                </a>
+                <a href="https://adamgoldsmith.ca" class="flex items-center gap-2 text-gray-600 hover:text-gray-900">
+                    <i data-feather="link"></i> adamgoldsmith.ca
+                </a>
+            </div>
+        </header>
+
+        <!-- Education -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Education</h2>
+            <div class="space-y-4">
+                <div>
+                    <h3 class="text-lg font-semibold">Computer Systems Technology Diploma</h3>
+                    <p class="text-gray-600">British Columbia Institute of Technology | Jan 2023 - Present</p>
+                    <p class="text-gray-600">CGPA: 89%</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold">Game Design Diploma</h3>
+                    <p class="text-gray-600">School Creative | Sep 2016 - Sep 2017</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Projects</h2>
+            <div class="space-y-6">
+                <!-- QuestQube -->
+                <div class="border-l-4 border-blue-500 pl-4">
+                    <div class="flex justify-between items-baseline mb-2">
+                        <h3 class="text-lg font-semibold">QuestQube <span class="text-gray-600">| Collaborative Project</span></h3>
+                        <span class="text-gray-500 text-sm">May 2023</span>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-2">JavaScript, HTML/CSS, GPT-3</p>
+                    <ul class="list-disc list-inside space-y-1">
+                        <li class="text-gray-700">Integrated popular APIs, including the IGDB API and the GPT-3 API, to enhance the application's functionality and provide users with extensive gaming data and AI-powered recommendations.</li>
+                        <li class="text-gray-700">Designed and managed the MongoDB database, demonstrating proficiency in database schema design and data storage for web applications.</li>
+                    </ul>
+                </div>
+
+                <!-- Python vs Java -->
+                <div class="border-l-4 border-blue-500 pl-4">
+                    <div class="flex justify-between items-baseline mb-2">
+                        <h3 class="text-lg font-semibold">Python vs Java <span class="text-gray-600">| Hackathon</span></h3>
+                        <span class="text-gray-500 text-sm">Mar 2023</span>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-2">Python, Pygame, Aseprite</p>
+                    <ul class="list-disc list-inside space-y-1">
+                        <li class="text-gray-700">Developed the entire game, including design, programming, art, sounds, and music, as a solo developer, within a 36-hour time deadline.</li>
+                        <li class="text-gray-700">Adapted to Pygame, a game development library for Python, despite having prior experience with other game engines like Unity and Godot, demonstrating an ability and willingness to quickly learn new technologies.</li>
+                    </ul>
+                </div>
+
+                <!-- TypeTitan -->
+                <div class="border-l-4 border-blue-500 pl-4">
+                    <div class="flex justify-between items-baseline mb-2">
+                        <h3 class="text-lg font-semibold">TypeTitan <span class="text-gray-600">| Personal Project</span></h3>
+                        <span class="text-gray-500 text-sm">Nov 2020</span>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-2">JavaScript, React, JSX</p>
+                    <ul class="list-disc list-inside space-y-1">
+                        <li class="text-gray-700">Developed the open-source TypeTitan web application using React, harnessing the power of React hooks to create dynamic and responsive user interfaces.</li>
+                        <li class="text-gray-700">Designed an intuitive and user-friendly user interface built with JSX, ensuring a seamless typing experience and providing instant feedback on typing accuracy and words per minute.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section>
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <div>
+                    <h3 class="font-semibold text-gray-800 mb-2">Languages</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Python</span>
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">JavaScript</span>
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">C#</span>
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Lua</span>
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Java</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-gray-800 mb-2">Frontend</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">HTML</span>
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">CSS</span>
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">jQuery</span>
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Bootstrap</span>
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">React</span>
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">EJS</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-gray-800 mb-2">Engines & Software</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Unity</span>
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Unreal Engine</span>
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Godot</span>
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Blender</span>
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Photoshop</span>
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Aseprite</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-gray-800 mb-2">Backend</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Node.js</span>
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Express</span>
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Django</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-gray-800 mb-2">Tools</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Git</span>
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">GitHub</span>
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Heroku</span>
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">Netlify</span>
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">AWS</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-gray-800 mb-2">Database</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">MongoDB</span>
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">SQLite</span>
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">MySQL</span>
+                        <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">FireBase</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // Initialize Feather icons
+        feather.replace();
+    </script>
+</body>
+</html>
